@@ -34,5 +34,5 @@ jobs:
           echo "$PRIVATE_KEY" > private_key && sudo chmod 600 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
           
-          mkdir agent2 &&
-          fab --version >> cat2.txt'
+          mkdir agent20 &&
+          fab --version >> cat20.txt'
